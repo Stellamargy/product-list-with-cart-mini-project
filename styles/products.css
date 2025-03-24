@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+}
+ul.products-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  list-style: none;
+}
+article div {
+  margin-bottom: 20px;
+  position: relative;
+}
+article div img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.product-name {
+  /* color:hsl(7, 20%, 60%);
+  font-weight: 400; */
+  color: hsl(12, 20%, 44%);
+  font-weight: 500;
+  font-size: 16px;
+}
+.product-description {
+  color: hsl(14, 65%, 9%);
+  font-weight: 900;
+}
+.product-price {
+  color: hsl(14, 86%, 42%);
+  font-weight: 500;
+}
+.add-cart-btn {
+  padding: 15px 20px;
+  background-color: white;
+  border: 1px solid hsl(14, 53%, 26%);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0; /* Aligns at the bottom */
+  left: 50%; /* Moves it to the horizontal center */
+  transform: translateX(-50%);
+}
+.add-cart-btn span {
+  font-size: 16px;
+  margin-left: 8px;
+  color:  hsl(14, 53%, 26%);
+  font-weight: 900;
+}
+.cart-icon {
+  color: hsl(14, 86%, 42%);
+}
