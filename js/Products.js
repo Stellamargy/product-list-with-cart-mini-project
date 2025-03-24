@@ -13,3 +13,7 @@ const getProducts = () => {
 // INITIALIZE
 getProducts();
 
+
+// DOM Manipulation to display all products 
+
+
